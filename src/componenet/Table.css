@@ -1,0 +1,89 @@
+.table-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  /* input[type='text'] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    box-sizing: border-box;
+  } */
+  .search{
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .appoint_btn{
+    margin-right: 15px;
+    background-color: #4caf50 !important;
+
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .selected-row {
+    background-color: #d3d3d3; /* Light gray background */
+  }
+  
+  input[type='checkbox'] {
+    appearance: none;
+    width: 12px;
+    height: 12px !important;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type='checkbox']:checked {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20.285 4.292a1 1 0 00-1.415 0L9 14.162l-3.87-3.87a1 1 0 00-1.415 1.415l4.578 4.578a1 1 0 001.415 0l10.578-10.578a1 1 0 000-1.415z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  input[type='checkbox']:hover {
+    border-color: #999;
+  }
+  
+  button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ff1a1a;
+  }
+  

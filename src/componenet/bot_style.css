@@ -1,0 +1,234 @@
+
+.file_div svg {
+    position: absolute;
+    width: 65px;
+    height: 55px;
+    background: #4D7EFD;
+    border-radius: 8px;
+}
+input.Input_File {
+    position: absolute;
+    opacity: 0%;
+    height: 65px;
+    width: 55px;
+}
+div.file_div {
+    height: 65px;
+    width: 55px;
+    margin-right: 10px;
+}
+.Input_button {
+    width: 397px;
+    height: 55px;
+    margin-left: 10px;
+    font-size: 20px;
+    background: #4D7EFD;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.div3 {
+    display: flex;
+    margin-top: 5px;
+}
+.div1{
+    height: 100px;
+    background: #D9D9D9;
+    width: 472px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.Input_text {
+    width: 470px;
+    height: 321px;
+    font-size: 22px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    padding: 10px;
+    color: #3D3D3D;
+    font-weight: 700;
+    font-family: Segoe UI;
+}
+.con2 {
+    width: 500px;
+    height: 497px;
+    background: #D9D9D9;
+    margin-left: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: solid;
+    border-color: #d7d7d7;
+}
+.con{
+    display: flex;
+}
+.div1 svg{
+    color: #4D7EFD;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.text_div h2{
+    color: #3D3D3D;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.text_div p{
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 0px;
+    line-height: 15px;
+}
+.con {
+    justify-content: center;
+}
+body {
+    justify-content: center;
+}
+.tg_div2 { 
+   background-size: 1000px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.tg_div1 {
+    height: 44px;
+    position: relative;
+    justify-content: center;
+    padding-top: 15px;
+    background: white;
+}
+.tg_div3{
+    height: 56px;
+    position: relative;
+    display: flex;
+}
+.tg_div1 > svg:nth-child(2){
+    color: #3D3D3D;
+    right: 10px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    opacity: 80%;
+}
+.tg_div1 > svg:nth-child(3){
+    color: #3D3D3D;
+    right: 40px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: -3px;
+    opacity: 65%;
+}
+.tg_div1 > svg:nth-child(4){
+    color: #3D3D3D;
+    right: 75px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: -3px;
+    opacity: 75%;
+}
+.bot_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: -7px;
+    margin-left: 10px;
+    color: #3D3D3D;
+}
+.bot_txt {
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-bottom: -32px;
+    margin-left: 10px;
+    opacity: 70%;
+}
+.tg_div3 > svg:nth-child(1){
+    color: #3D3D3D;
+    right: 460px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    opacity: 60%;
+}
+.tg_div3 > svg:nth-child(3){
+    color: #4D7EFD;
+    right: 10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.tg_div3 > svg:nth-child(4){
+    color: #3D3D3D;
+    right: 60px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    opacity: 60%;
+}
+.write_msg {
+    font-size: 15px;
+    color: #3D3D3D !important;
+    margin-left: 45px !important;
+    font-weight: 500;
+    opacity: 75%;
+    margin-left: 47px !important;
+    margin-top: 13px !important;
+}
+.chat_box{
+    width: 200px;
+}
+.chat_box > svg:nth-child(2) {
+    transform: scaleX(-1);
+    rotate: 90deg;
+    width: 50px;
+    height: 50px;
+    bottom: 1px;
+    z-index: 1;
+    color: white;
+}
+
+.msg_box {
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    color: #3D3D3D;
+    width: 350px;
+    margin-left: 10px;
+    border-bottom-left-radius: 0px;
+    z-index: 2;
+    margin-bottom: -46px;
+    min-height: 46px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.msg_text {
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    white-space: pre-wrap;
+}
+
+
+
+
+
